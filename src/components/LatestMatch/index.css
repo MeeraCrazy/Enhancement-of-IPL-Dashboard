@@ -6,7 +6,7 @@
 .latest-match-heading {
   color: #ffffff;
   font-family: 'Bree Serif';
-  font-size: 16px;
+  font-size: 24px;
   display: block;
 }
 
@@ -105,7 +105,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .latest-atch-team-logo {
+  .latest-match-team-logo {
     max-width: 200px;
     max-height: 200px;
   }

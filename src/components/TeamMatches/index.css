@@ -6,35 +6,35 @@
 }
 
 .rcb {
-  background-image: linear-gradient(to top, #1e293b, #a4261d);
+  background: linear-gradient(to top, #1e293b, #a4261d);
 }
 
 .kkr {
-  background-image: linear-gradient((to top, #1e293b, #5755a7));
+  background: linear-gradient(to top, #1e293b, #5755a7);
 }
 
 .kxp {
-  background-image: linear-gradient((to top, #1e293b, #d91c1f));
+  background: linear-gradient(to top, #1e293b, #d91c1f);
 }
 
 .csk {
-  background-image: linear-gradient((to top, #1e293b, #f7db00));
+  background: linear-gradient(to top, #1e293b, #f7db00);
 }
 
 .rr {
-  background-image: linear-gradient((to top, #1e293b, #da237b));
+  background: linear-gradient(to top, #1e293b, #da237b);
 }
 
 .mi {
-  background-image: linear-gradient((to top, #1e293b, #13418b));
+  background: linear-gradient(to top, #1e293b, #13418b);
 }
 
 .srh {
-  background-image: linear-gradient((to top, #1e293b, #f26d22));
+  background: linear-gradient(to top, #1e293b, #f26d22);
 }
 
 .dc {
-  background-image: linear-gradient((to top, #1e293b, #4f5db0));
+  background: linear-gradient(to top, #1e293b, #4f5db0);
 }
 
 .responsive-container {
@@ -50,16 +50,34 @@
   }
 }
 
+.team-banner {
+  width: 100%;
+}
+
 .recent-matches-list {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrpa;
-  padding-left: 0px;
+  flex-wrap: wrap;
+  padding-left: 0;
   margin-top: 24px;
 }
 
 @media screen and (min-width: 768px) {
   .recent-matches-list {
-    font-size: 32px;
+    margin-top: 32px;
   }
+}
+
+.back-button {
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
 }

@@ -11,7 +11,7 @@ const LatestMatch = props => {
     competingTeamLogo,
     firstInnings,
     secondInnings,
-    manOfTheMath,
+    manOfTheMatch,
     umpires,
   } = latestMatchData
 
@@ -28,20 +28,20 @@ const LatestMatch = props => {
           </div>
           <img
             src={competingTeamLogo}
-            alt={competingTeam}
-            className="latest-match_team-logo"
+            alt={`latest match ${competingTeam}`}
+            className="latest-match-team-logo"
           />
-          <hr className="seperator" />
-          <div className="latest-match-details-2">
-            <p className="latest-match-details-label">First Innings</p>
-            <p className="latest-match-details-value">{firstInnings}</p>
-            <p className="latest-match-details-label">Second Innings</p>
-            <p className="latest-match-details-value">{secondInnings}</p>
-            <p className="latest-match-details-label">Man Of The Match</p>
-            <p className="latest-match-details-value">{manOfTheMath}</p>
-            <p className="latest-match-details-label">Umpires</p>
-            <p className="latest-match-details-value">{umpires}</p>
-          </div>
+        </div>
+        <hr className="seperator" />
+        <div className="latest-match-details-2">
+          <p className="latest-match-details-label">First Innings</p>
+          <p className="latest-match-details-value">{firstInnings}</p>
+          <p className="latest-match-details-label">Second Innings</p>
+          <p className="latest-match-details-value">{secondInnings}</p>
+          <p className="latest-match-details-label">Man Of The Match</p>
+          <p className="latest-match-details-value">{manOfTheMatch}</p>
+          <p className="latest-match-details-label">Umpires</p>
+          <p className="latest-match-details-value">{umpires}</p>
         </div>
       </div>
     </div>
